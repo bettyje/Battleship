@@ -1,6 +1,6 @@
 # Battleship Project
 
-#### Date: 2024/09/29
+#### Date: 2024/10/17
 
 ### Collaborators
 1. Betty Jelagat
@@ -24,7 +24,7 @@ Dive into the fun of Battleship and test your strategic skills against a digital
 ## Installation
 
 To download the documents from this GitHub repository, you can use the following command:
-git clone https://github.com/bettyje/WK1-Code-Challenge.git
+git clone https://github.com/bettyje/Battleship
 
 ## Installation Requirements
 Before you get started, ensure you have the following installed on your machine:
@@ -39,7 +39,6 @@ Clone the repository using the command above.
 Navigate to the project directory in your terminal:
 bash
 Copy code
-cd WK1-Code-Challenge
 Open the index.html file in your preferred web browser to start playing the game!
 
 ## Technologies Used
@@ -51,9 +50,10 @@ JavaScript: To implement game logic and interactivity, allowing players to engag
 ### Support and Contact Details
 For any questions or support regarding the Battleship game, feel free to reach out to us via our GitHub profiles:
 
-Betty Jelagat:  https://github.com/bettyje
-Daniel Mburu:  https://github.com/waweru89 
-Bravin Muramb: https://github.com/bravjr
+1. Betty Jelagat:  https://github.com/bettyje
+2. Daniel Mburu:  https://github.com/waweru89
+3. Bravin Muramb: https://github.com/bravjr
+
 
 ## License
 The content of this site is licensed under the MIT License.

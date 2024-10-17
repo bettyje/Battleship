@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship Tutorial</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header1">
+      <img class="bsimg" src="./Assets/1784366.webp" alt="">
+    </div>
+    <div class="para1">
+      <h1>How to Play the Battleship Board Game</h1>
+      <p>
+        <span class="dropcap">
+          <img
+            src="./Assets/Flickr_-_Official_U.S._Navy_Imagery_-_Sailors_play__Battleship__aboard_a_carrier.jpg"
+            alt="Description of Image"
+            class="dropcap-img"
+          />
+        </span>
+        Battleship is a two-player war-themed board game where opponents try to
+        guess the location of each other's warships and then sink them. A paper
+        and pencil version of the game dates back to World War I, but most
+        people are familiar with Battleship through the plastic board game first
+        marketed by the Milton Bradley Company in 1967 and now produced by
+        Hasbro. Since the launch of the original board game, more Battleship
+        variations have become popular, including video games and smartphone
+        apps. But, throughout Battleship history, the rules for playing have
+        remained relatively the same. So, how do you play Battleship? The game
+        is pretty straightforward. Each player places ships on a plastic grid
+        containing vertical and horizontal coordinates, but players keep their
+        ships' locations secret from their opponent. Players take turns calling
+        out row and column coordinates on the other player's grid in an attempt
+        to identify a square that contains a ship. The game board each player
+        gets has two grids: an upper and a lower. The player uses the lower grid
+        to place and hide his ships. He uses the upper grid to record shots
+        fired (by calling out coordinates) toward his opponent and to document
+        whether those shots were hits or misses.Before play begins, each player
+        secretly arranges their ships on their primary grid. Each ship occupies
+        a number of consecutive squares on the grid, arranged either
+        horizontally or vertically. The number of squares for each ship is
+        determined by the type of ship. The ships cannot overlap (i.e., only one
+        ship can occupy any given square in the grid) or be placed diagonally.
+        The types and numbers of ships allowed are the same for each player.
+        These may vary depending on the rules. The ships should be hidden from
+        the opposing player's sight and players are not allowed to see each
+        other's pieces. The game is a discovery game in which players need to
+        discover their opponent's ship positions.
+      </p>
+    </div>
+    <div class="battleship_board">
+      <!-- Column Labels (A-J) -->
+      <div class="board-header"></div>
+      <div class="row">
+        <div class="cell header"></div>
+        <div class="cell header">A</div>
+        <div class="cell header">B</div>
+        <div class="cell header">C</div>
+        <div class="cell header">D</div>
+        <div class="cell header">E</div>
+        <div class="cell header">F</div>
+        <div class="cell header">G</div>
+        <div class="cell header">H</div>
+        <div class="cell header">I</div>
+        <div class="cell header">J</div>
+      </div>
+
+      <!-- Rows 1-10 -->
+      <div class="row">
+        <div class="cell header">1</div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">2</div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">3</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">4</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">5</div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">6</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">7</div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">8</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">9</div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell ship battleship"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell header">10</div>
+        <div class="cell ship battleship"></div>
+        <div class="cell"></div>
+        <div class="cell ship destroyer"></div>
+        <div class="cell"></div>
+        <div class="cell ship cruiser"></div>
+        <div class="cell"></div>
+        <div class="cell ship carrier"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="setgame">
+        <img class="gmimg" src="./Assets/you-sunk-my-battleship-yes.gif" alt="">
+        <div class="setting_up">
+          <h1>Setting up the Game</h1>
+          <p>
+            Each player receives a game board, five ships of varying lengths (each
+            ship has holes to insert the "hit" pegs), and a supply of hit and miss
+            markers (white and red pegs).The five ships are: Carrier (five holes)
+            Battleship (four holes) Cruiser (three holes) Submarine (three holes)
+            Destroyer (two holes) The two players should face each other across a
+            game table. Their grids back up to one another so that neither player
+            can see his opponent's "ocean" and ship locations. Before the game
+            starts, each opponent secretly places his five ships on the ocean grid
+            (lower part of the board) by laying out the ships and anchoring them
+            into the holes on the grid. Each ship must be placed horizontally or
+            vertically across grid spaces—not diagonally—and the ships can't hang
+            off the grid. Ships can touch each other, but they can't occupy the same
+            grid space. You cannot change the position of the ships after the game
+            begins.
+          </p>    
+        </div>
+    </div>
+      <h1>Basic Gameplay</h1>
+      <p>
+        Players take turns firing shots (by calling out a grid coordinate) to
+        attempt to hit the opponent's enemy ships. On your turn, call out a
+        letter and a number that identifies a row and column on your target
+        grid. Your opponent checks that coordinate on their ocean grid and
+        verbally responds "miss" if there is no ship there, or "hit" if you have
+        correctly guessed a space that is occupied by a ship. Mark each of your
+        shots or attempts to fire on the enemy using your target grid (upper
+        part of the board), using white pegs to document your misses and red
+        pegs to register your hits. As the game proceeds, the red pegs will
+        gradually identify the size and location of your opponent's ships. After
+        you've taken your turn, it's your opponent's turn to fire shots at you.
+        Each time one of your ships receives a hit, put a red peg into the hole
+        on the ship corresponding to the grid space. When one of your ships has
+        every slot filled with red pegs, you must announce to your opponent that
+        your ship is sunk. In classic play, the phrase is "You sunk my
+        battleship!" The first player to sink all five of their opponent's ships
+        wins the game.
+      </p>
+    </div>
+
+    <div class="board-container">
+    
+      <div class="board" id="battleship-board">
+      
+      </div>
+      <div class="board_side">
+        <h4>Players</h4>
+        <p>2</p>
+        <h4>Goal</h4>
+        <p>-Sink all opponents ships</p>
+        <h4>Setup</h4>
+        <p>
+          -Each player receives a game board, five ships of varying lengths, and
+          a supply
+        </p>
+        <h4>Rules</h4>
+        <p>-Each player takes turns firing shots at the opponent's board</p>
+        <p>
+          -If a shot hits a ship, the player places a red peg in the
+          corresponding
+        </p>
+        <p>
+          -If a shot misses a ship, the player places a white peg in the
+          corresponding
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Battleship Game</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

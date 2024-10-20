@@ -44,9 +44,9 @@ Open the index.html file in your preferred web browser to start playing the game
 ## Technologies Used
 This project utilizes the following technologies:
 
-HTML: To structure the game's content and layout.
-CSS: To enhance the visual appeal and design of the game interface.
-JavaScript: To implement game logic and interactivity, allowing players to engage with the game dynamically.
+1. HTML: To structure the game's content and layout.
+2. CSS: To enhance the visual appeal and design of the game interface.
+3. JavaScript: To implement game logic and interactivity, allowing players to engage with the game dynamically.
 ### Support and Contact Details
 For any questions or support regarding the Battleship game, feel free to reach out to us via our GitHub profiles:
 
